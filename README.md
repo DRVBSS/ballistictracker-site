@@ -16,15 +16,12 @@ CNAME           Custom domain (ballistictracker.com) — do not delete
 ## Editing
 Just open the `.html` files and change the text. To preview locally, open `index.html` in a browser (or run `python3 -m http.server` in this folder and visit http://localhost:8000).
 
-## ⚠️ Before launch: add your TestFlight link
-The "Join the Beta" buttons currently point to a placeholder. When your **public TestFlight link** is ready (looks like `https://testflight.apple.com/join/abcd1234`), replace every occurrence of:
+## ⚠️ Before launch: add your App Store link
+The "Download on the App Store" buttons currently point to a placeholder. When your App Store listing exists (URL looks like `https://apps.apple.com/app/id123456789`), replace every occurrence of:
 ```
-https://testflight.apple.com/join/REPLACE-ME
+https://apps.apple.com/app/idREPLACE-ME
 ```
-It appears in `index.html`, `privacy.html`, and `support.html`. Find/replace across all three.
-
-## When the app goes live on the App Store
-Swap the "Join the Beta on TestFlight" buttons for an **App Store** link/badge pointing to your listing.
+It appears in `index.html`, `privacy.html`, and `support.html`. Find/replace `REPLACE-ME` across all three.
 
 ## Deploy
 GitHub Pages serves this repo automatically. Push to `main` and changes go live in ~1 minute.
